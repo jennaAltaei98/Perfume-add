@@ -1,0 +1,86 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'Hanken Grotesk', sans-serif;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding:0;
+    border: none;
+    background-color: hsl(30, 38%, 92%);
+    
+}
+h3{
+    font-weight: 300;
+}
+p{
+    font-weight: 300;
+}
+.components{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+
+}
+.text-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 20px;
+    width: 50vh;
+    color:grey;
+    font-weight: 300;
+}
+h1{
+    color: black;
+    font-weight: 700;
+}
+.perfume{
+    width: 50vh;
+    border-radius: 10px;
+    
+}
+.underline{
+    text-decoration: line-through;
+    color: grey;
+    font-weight: 300;
+}
+.cart{
+    width: 300px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    gap: 5px;
+    font-weight: 700;
+}
+.dollar{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+gap: 10px;
+color:hsl(158, 36%, 37%);
+font-weight: 700;
+}
